@@ -1,0 +1,17 @@
+{
+  "name": "sorting-algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/WiFo26/Sorting-Algorithm.git",
+  "author": "Luis Ramirez <lou81804@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently yarn:start:*"
+  },
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.16"
+  }
+}
